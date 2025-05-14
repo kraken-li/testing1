@@ -1,0 +1,8 @@
+{
+  "version": "1",
+  "name": "Personality Test",
+  "homeUrl": "https://personality-test1.vercel.app",
+  "description": "Discover your personality type with this fun and interactive test!",
+  "primaryCategory": "entertainment",
+  "tags": ["personality", "quiz", "fun"]
+}
