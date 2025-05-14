@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "public/app.mjs", "use": "@vercel/static" }
+  ],
+  "headers": [
+    {
+      "source": "/app.mjs",
+      "headers": [
+        { "key": "Content-Type", "value": "application/javascript" }
+      ]
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
